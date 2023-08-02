@@ -2,15 +2,15 @@
 import { ref } from 'vue'
 
 defineProps({
-  msg: String,
+  nome: String,
 })
 
 const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-  <h2>{{ msg }}</h2>
+  <h1>{{ nome }}</h1>
+
 </template>
 
 <style scoped>
